@@ -9,6 +9,7 @@ yarn-error.log*
 node_modules/
 backend/node_modules/
 client/client/node_modules/
+backend/.mongo/
 
 # Build and deployment files
 dist/
