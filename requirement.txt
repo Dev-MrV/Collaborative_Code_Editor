@@ -1,0 +1,31 @@
+Project Dependencies and Requirements
+
+### System Requirements
+- Node.js (v18 or higher recommended)
+- MongoDB Database (Local or Atlas)
+- NPM or regular package manager
+
+### Frontend (Client)
+Directory: \`client/client\`
+- React 18+
+- Vite
+- Monaco Editor (\`monaco-editor\`, \`@monaco-editor/react\`)
+- Yjs Ecosystem (\`yjs\`, \`y-monaco\`, \`y-websocket\`, \`y-webrtc\`)
+- Socket.io Client (\`socket.io-client\`)
+- React Router DOM
+- Typescript
+
+### Backend (Server)
+Directory: \`backend\`
+- Express.js
+- Mongoose (MongoDB ORM)
+- Socket.io
+- Y-Websocket & Yjs
+- JWT & Bcryptjs for Auth
+- Dotenv & Cors
+
+### AI Service
+Directory: \`client/server\`
+- Express.js
+- OpenAI SDK (used with Gemini API)
+- Cors, Dotenv
