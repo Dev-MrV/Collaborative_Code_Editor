@@ -59,26 +59,6 @@ A **real-time collaborative code editor** built with **Monaco Editor + Yjs**, en
 
 ---
 
-## 🖼️ Screenshots
-
-### 🧑‍🤝‍🧑 Collaborative Editing
-
-![Collaboration](./screenshots/collab.png)
-
-### 🎯 Cursor Awareness
-
-![Cursor](./screenshots/cursor.png)
-
-### 🧠 AI Error Explanation
-
-![AI Error](./screenshots/error.png)
-
-### 🖥️ Editor UI
-
-![Editor](./screenshots/editor.png)
-
----
-
 ## 🛠️ Tech Stack
 
 | Category       | Technology         |
@@ -162,24 +142,6 @@ SyntaxError: invalid syntax
 ### AI Explanation
 
 > "You may have missed a colon or used incorrect syntax..."
-
----
-
-## 📂 Project Structure
-
-```
-src/
-├── components/
-│   ├── IDE.tsx
-│   ├── editor/
-│   │   └── CodeEditor.tsx
-├── utils/
-│   ├── runCode.ts
-│   ├── runPython.ts
-├── ai/
-│   └── errorExplainer/
-├── styles/
-```
 
 ---
 
